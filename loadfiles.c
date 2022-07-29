@@ -6,7 +6,7 @@
 
 int main(int argc, char **argv)
 {
-    FILE *file = fopen("cheatengine-i386.exe", "r");
+    FILE *file = fopen("C:/Program Files/Cheat Engine 7.4/cheatengine-i386.exe", "r");
 
     // Check if the file opened successfully
     if (file == NULL)
