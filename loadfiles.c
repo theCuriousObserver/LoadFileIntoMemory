@@ -33,6 +33,11 @@ int main(int argc, char **argv)
         exit(1);
     }
 
+    for (int i = 0; i < size; i++)
+    {
+        printf("Code Running:");
+    }
+
     // Copy all the text into the buffer
     fread(buffer, sizeof(char), size, file);
 
