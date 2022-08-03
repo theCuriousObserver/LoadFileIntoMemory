@@ -1,3 +1,5 @@
+// Reference - https://www.fundza.com/c4serious/fileIO_reading_all/index.html
+
 // C program to load all the executable binary into memory
 
 #include <stdio.h>
