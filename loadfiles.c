@@ -29,7 +29,7 @@ int main(int argc, char **argv)
     fseek(file, 0L, SEEK_SET);
 
     // Allocate sufficient memory for the file
-    char *buffer = (char *)calloc(size, sizeof(char));
+    char *buffer = (char *)malloc(size);
     if (buffer == NULL)
     {
         exit(1);
