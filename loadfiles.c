@@ -1,4 +1,4 @@
-// C program to load all the executable binary into memory
+// C program to load all the executable binary of an exe file into memory
 
 #include <stdio.h>
 #include <stdlib.h>
